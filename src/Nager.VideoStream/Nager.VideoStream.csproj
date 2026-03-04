@@ -1,18 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net48;net6</TargetFrameworks>
     <Authors>Tino Hager</Authors>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/nager/Nager.VideoStream</RepositoryUrl>
-    <PackageTags>video stream rtsp frame camera</PackageTags>
+    <Company>nager.at</Company>
     <Description>Read frames from a rtsp video stream or from a video file</Description>
+    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.0</Version>
-    <PackageReleaseNotes>Add icon to nuget package</PackageReleaseNotes>
+    
+    <LangVersion>12.0</LangVersion>
     <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
+    <Nullable>enable</Nullable>
+    
     <PackageIcon>camera.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
+    <!--<PackageReleaseNotes>A changelog is available at https://github.com/nager/Nager.VideoStream/releases</PackageReleaseNotes>-->
+    <PackageProjectUrl>https://github.com/nager/Nager.VideoStream</PackageProjectUrl>
+    <PackageTags>video;stream;rtsp;frame;camera</PackageTags>
+    
+    <RepositoryUrl>https://github.com/nager/Nager.VideoStream</RepositoryUrl>
+    
+    <TargetFrameworks>net481;netstandard2.0;net10.0</TargetFrameworks>
+    
+    <!-- Version is automatically replaced by build process -->
+    <Version>1.3.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

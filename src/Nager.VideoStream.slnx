@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Nager.VideoStream.TestConsole/Nager.VideoStream.TestConsole.csproj" />
+  <Project Path="Nager.VideoStream/Nager.VideoStream.csproj" />
+</Solution>
